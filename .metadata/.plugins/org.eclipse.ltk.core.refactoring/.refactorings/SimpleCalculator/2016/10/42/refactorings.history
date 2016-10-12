@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Create method displayChoice" description="Extract Method Refactoring" fileName="file:/Users/Taban/C++Project/SimpleCalculator/sourceFile/manClient.cpp" flags="4" id="org.eclipse.cdt.internal.ui.refactoring.extractfunction.ExtractFunctionRefactoring" name="displayChoice" replaceDuplicates="false" selection="225,227" stamp="1476210164436" visibility="private"/>
+</session>

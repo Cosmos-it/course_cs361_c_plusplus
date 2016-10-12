@@ -1,0 +1,36 @@
+/*
+ * calculatorFunction.h
+ *
+ *  Created on: Oct 10, 2016
+ *      Author: Taban
+ */
+
+#ifndef SOURCEFILE_CALCULATORFUNCTION_H_
+#define SOURCEFILE_CALCULATORFUNCTION_H_
+
+
+
+
+
+#endif /* SOURCEFILE_CALCULATORFUNCTION_H_ */
+
+
+int subtract(int a, int b){
+	return 0;
+}
+
+int multiply(int a, int b){
+	return 0;
+}
+
+double divide(int a, int b) {
+	return 0.0;
+}
+
+double modulo(int a, int b){
+	return 0.0;
+}
+
+double add(int a, int b) {
+	return 0;
+}

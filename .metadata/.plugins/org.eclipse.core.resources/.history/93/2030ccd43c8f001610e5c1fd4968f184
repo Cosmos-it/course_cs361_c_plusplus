@@ -1,0 +1,24 @@
+/*
+ * manClient.cpp
+ *
+ *  Created on: Oct 10, 2016
+ *      Author: Taban
+ */
+
+
+#include <iostream>
+
+#include 'calculatorFunction';
+
+using namespace std;
+
+int main(int argc, const char * argv[]) {
+
+	puts("This is a calculator test");
+
+	return 0;
+
+}
+
+
+

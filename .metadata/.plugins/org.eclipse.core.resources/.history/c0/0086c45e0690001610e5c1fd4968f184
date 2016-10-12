@@ -1,0 +1,89 @@
+/*
+ * manClient.cpp
+ *
+ *  Created on: Oct 10, 2016
+ *      Author: Taban
+ */
+
+
+#include <iostream>
+
+#include "calculatorFunction.h";
+
+using namespace std;
+
+void displayChoice() {
+	puts("\n\nCalculator option.");
+	puts("1: For add!");
+	puts("2: For subtraction!");
+	puts("3: For multiply!");
+	puts("4: For division!");
+	puts("5: For modulus!");
+	puts("Enter -1 to exit.");
+}
+
+int main(int argc, const char * argv[]) {
+	int a, b, choice = {0};
+	puts("Simple calculator!");
+do {
+	displayChoice();
+	cin.clear();
+	cin.ignore();
+	cin >> choice;
+
+	double result = {0};
+	if (choice >= 1 || choice <= 5){
+		switch(choice) {
+			case 1:
+				puts("Enter a");
+				cin >> a;
+				puts("Enter b");
+				cin >> b;
+				result = add(a, b);
+				printf("Result is: %d", result);
+				break;
+
+			case 2:
+				puts("Enter a");
+				cin >> a;
+				puts("Enter b");
+				cin >> b;
+				result = subtract(a, b);
+				printf("Result is: %d", result);
+				break;
+
+			case 3:
+				puts("Enter a");
+						cin >> a;
+						puts("Enter b");
+						cin >> b;
+						result = multiply(a, b);
+						printf("Result is: %d", result);
+						break;
+			case 4:
+				puts("Enter a");
+				cin >> a;
+				puts("Enter b");
+				cin >> b;
+				result = divide(a, b);
+				printf("Result is: %d", result);
+				break;
+
+			default:
+				break;
+		}
+	} else {
+		 puts("This choice does not exist");
+		 break;
+	}
+
+} while(choice != -1);
+
+
+
+	return 0;
+
+}
+
+
+

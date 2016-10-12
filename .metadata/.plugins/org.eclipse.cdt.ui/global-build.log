@@ -1,0 +1,1374 @@
+15:50:28 **** Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+15:50:45 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+15:50:51 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+15:51:02 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+15:51:21 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+16:00:25 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+16:01:12 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+16:01:14 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+16:01:33 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+16:01:40 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+16:02:24 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+16:02:27 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+21:01:36 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+21:01:40 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+21:01:56 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:03:34 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+../sourceFile/manClient.cpp:45:4: error: cannot jump from switch statement to this case label
+   case 5:
+   ^
+../sourceFile/manClient.cpp:36:7: note: jump bypasses variable initialization
+                int sub = subtract(a, b);
+                    ^
+../sourceFile/manClient.cpp:43:4: error: cannot jump from switch statement to this case label
+   case 4:
+   ^
+../sourceFile/manClient.cpp:36:7: note: jump bypasses variable initialization
+                int sub = subtract(a, b);
+                    ^
+../sourceFile/manClient.cpp:41:4: error: cannot jump from switch statement to this case label
+   case 3:
+   ^
+../sourceFile/manClient.cpp:36:7: note: jump bypasses variable initialization
+                int sub = subtract(a, b);
+                    ^
+../sourceFile/manClient.cpp:39:4: error: cannot jump from switch statement to this case label
+   case 2:
+   ^
+../sourceFile/manClient.cpp:36:7: note: jump bypasses variable initialization
+                int sub = subtract(a, b);
+                    ^
+1 warning and 4 errors generated.
+make: *** [sourceFile/manClient.o] Error 1
+11:10:14 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:10:17 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:11:03 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:11:25 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:12:20 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:12:22 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:12:59 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:13:01 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:14:31 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:14:48 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:15:38 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:16:32 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+../sourceFile/manClient.cpp:47:7: error: expected ';' after expression
+                 cin choice;
+                    ^
+                    ;
+../sourceFile/manClient.cpp:47:4: warning: expression result unused [-Wunused-value]
+                 cin choice;
+                 ^~~
+../sourceFile/manClient.cpp:47:8: warning: expression result unused [-Wunused-value]
+                 cin choice;
+                     ^~~~~~
+3 warnings and 1 error generated.
+make: *** [sourceFile/manClient.o] Error 1
+11:16:57 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:17:03 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:17:20 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:18:34 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:18:36 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:19:59 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:20:59 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:21:40 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:21:42 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:25:23 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:25:25 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:25:47 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:26:02 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:26:26 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:26:29 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:26:32 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:26:34 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:26:49 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:27:22 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:27:34 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:29:21 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+../sourceFile/manClient.cpp:75:16: error: reference to 'modulus' is ambiguous
+                                                result = modulus(a, b);
+                                                         ^
+../sourceFile/calculatorFunction.h:23:8: note: candidate found by name lookup is 'modulus'
+double modulus(int a, int b){
+       ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/functional:601:30: note: candidate found by name lookup is 'std::__1::modulus'
+struct _LIBCPP_TYPE_VIS_ONLY modulus : binary_function<_Tp, _Tp, _Tp>
+                             ^
+1 warning and 1 error generated.
+make: *** [sourceFile/manClient.o] Error 1
+11:29:32 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+../sourceFile/manClient.cpp:75:16: error: reference to 'modulus' is ambiguous
+                                                result = modulus(a, b);
+                                                         ^
+../sourceFile/calculatorFunction.h:23:8: note: candidate found by name lookup is 'modulus'
+double modulus(int a, int b){
+       ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/functional:601:30: note: candidate found by name lookup is 'std::__1::modulus'
+struct _LIBCPP_TYPE_VIS_ONLY modulus : binary_function<_Tp, _Tp, _Tp>
+                             ^
+1 warning and 1 error generated.
+make: *** [sourceFile/manClient.o] Error 1
+11:29:34 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+../sourceFile/manClient.cpp:75:16: error: reference to 'modulus' is ambiguous
+                                                result = modulus(a, b);
+                                                         ^
+../sourceFile/calculatorFunction.h:23:8: note: candidate found by name lookup is 'modulus'
+double modulus(int a, int b){
+       ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/functional:601:30: note: candidate found by name lookup is 'std::__1::modulus'
+struct _LIBCPP_TYPE_VIS_ONLY modulus : binary_function<_Tp, _Tp, _Tp>
+                             ^
+1 warning and 1 error generated.
+make: *** [sourceFile/manClient.o] Error 1
+11:30:26 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+../sourceFile/manClient.cpp:75:16: error: reference to 'modulus' is ambiguous
+                                                result = modulus(a, b);
+                                                         ^
+../sourceFile/calculatorFunction.h:23:5: note: candidate found by name lookup is 'modulus'
+int modulus(int a, int b){
+    ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/functional:601:30: note: candidate found by name lookup is 'std::__1::modulus'
+struct _LIBCPP_TYPE_VIS_ONLY modulus : binary_function<_Tp, _Tp, _Tp>
+                             ^
+1 warning and 1 error generated.
+make: *** [sourceFile/manClient.o] Error 1
+11:31:21 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+../sourceFile/manClient.cpp:75:16: error: reference to 'modulus' is ambiguous
+                                                result = modulus(a, b);
+                                                         ^
+../sourceFile/calculatorFunction.h:23:5: note: candidate found by name lookup is 'modulus'
+int modulus(int a, int b){
+    ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/functional:601:30: note: candidate found by name lookup is 'std::__1::modulus'
+struct _LIBCPP_TYPE_VIS_ONLY modulus : binary_function<_Tp, _Tp, _Tp>
+                             ^
+1 warning and 1 error generated.
+make: *** [sourceFile/manClient.o] Error 1
+11:31:30 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+../sourceFile/manClient.cpp:75:16: error: reference to 'modulus' is ambiguous
+                                                result = modulus(a, b);
+                                                         ^
+../sourceFile/calculatorFunction.h:23:5: note: candidate found by name lookup is 'modulus'
+int modulus(int a, int b){
+    ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/functional:601:30: note: candidate found by name lookup is 'std::__1::modulus'
+struct _LIBCPP_TYPE_VIS_ONLY modulus : binary_function<_Tp, _Tp, _Tp>
+                             ^
+1 warning and 1 error generated.
+make: *** [sourceFile/manClient.o] Error 1
+11:31:34 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:36:06 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+../sourceFile/manClient.cpp:41:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:50:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:59:31: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                                printf("Result is: %d", result);
+                                                                   ~~   ^~~~~~
+                                                                   %f
+../sourceFile/manClient.cpp:67:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+5 warnings generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:36:08 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:43:03 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+../sourceFile/manClient.cpp:41:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:50:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:59:31: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                                printf("Result is: %d", result);
+                                                                   ~~   ^~~~~~
+                                                                   %f
+../sourceFile/manClient.cpp:67:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+5 warnings generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:43:06 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:43:08 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:43:11 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:43:12 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:43:12 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:43:14 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:43:47 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+../sourceFile/manClient.cpp:42:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:51:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:60:31: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                                printf("Result is: %d", result);
+                                                                   ~~   ^~~~~~
+                                                                   %f
+../sourceFile/manClient.cpp:68:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:79:9: error: use of undeclared identifier 'choice'
+} while(choice != -1);
+        ^
+5 warnings and 1 error generated.
+make: *** [sourceFile/manClient.o] Error 1
+11:45:04 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+../sourceFile/manClient.cpp:41:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:50:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:59:31: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                                printf("Result is: %d", result);
+                                                                   ~~   ^~~~~~
+                                                                   %f
+../sourceFile/manClient.cpp:67:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+5 warnings generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:45:17 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:45:21 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+../sourceFile/manClient.cpp:41:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:50:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:59:31: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                                printf("Result is: %d", result);
+                                                                   ~~   ^~~~~~
+                                                                   %f
+../sourceFile/manClient.cpp:67:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+5 warnings generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:46:25 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:46:28 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+../sourceFile/manClient.cpp:41:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:50:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:59:31: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                                printf("Result is: %d", result);
+                                                                   ~~   ^~~~~~
+                                                                   %f
+../sourceFile/manClient.cpp:67:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+5 warnings generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:47:21 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+../sourceFile/manClient.cpp:41:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:50:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:59:31: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                                printf("Result is: %d", result);
+                                                                   ~~   ^~~~~~
+                                                                   %f
+../sourceFile/manClient.cpp:67:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+5 warnings generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:47:28 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+../sourceFile/manClient.cpp:41:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:50:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:59:31: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                                printf("Result is: %d", result);
+                                                                   ~~   ^~~~~~
+                                                                   %f
+../sourceFile/manClient.cpp:67:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+5 warnings generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:47:31 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:47:33 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:47:37 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+../sourceFile/manClient.cpp:41:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:50:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:59:31: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                                printf("Result is: %d", result);
+                                                                   ~~   ^~~~~~
+                                                                   %f
+../sourceFile/manClient.cpp:67:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+5 warnings generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:48:07 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+../sourceFile/manClient.cpp:41:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:50:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:59:31: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                                printf("Result is: %d", result);
+                                                                   ~~   ^~~~~~
+                                                                   %f
+../sourceFile/manClient.cpp:67:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+5 warnings generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:48:10 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+15:55:58 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+15:58:49 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+../sourceFile/manClient.cpp:43:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:52:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:61:31: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                                printf("Result is: %d", result);
+                                                                   ~~   ^~~~~~
+                                                                   %f
+../sourceFile/manClient.cpp:69:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+5 warnings generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+15:59:05 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+15:59:56 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+../sourceFile/manClient.cpp:47:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:60:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:73:31: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                                printf("Result is: %d", result);
+                                                                   ~~   ^~~~~~
+                                                                   %f
+../sourceFile/manClient.cpp:85:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+5 warnings generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+16:00:15 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+16:13:37 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+../sourceFile/manClient.cpp:47:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:60:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:73:31: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                                printf("Result is: %d", result);
+                                                                   ~~   ^~~~~~
+                                                                   %f
+../sourceFile/manClient.cpp:85:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+5 warnings generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+16:13:39 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+16:15:57 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+../sourceFile/manClient.cpp:53:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:68:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:81:31: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                                printf("Result is: %d", result);
+                                                                   ~~   ^~~~~~
+                                                                   %f
+../sourceFile/manClient.cpp:93:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+5 warnings generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+16:16:07 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+16:16:10 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+../sourceFile/manClient.cpp:53:26: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result: %d", result);
+                                                ~~   ^~~~~~
+                                                %f
+../sourceFile/manClient.cpp:68:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+../sourceFile/manClient.cpp:81:31: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                                printf("Result is: %d", result);
+                                                                   ~~   ^~~~~~
+                                                                   %f
+../sourceFile/manClient.cpp:93:29: warning: format specifies type 'int' but the argument has type 'double' [-Wformat]
+                                printf("Result is: %d", result);
+                                                   ~~   ^~~~~~
+                                                   %f
+5 warnings generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+16:17:33 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+16:17:56 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+16:18:00 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+19:56:14 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+22:15:16 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+22:17:24 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:11:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+22:17:26 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+15:31:42 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:10:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+15:31:51 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+15:32:55 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+15:33:32 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:10:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+15:33:36 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+15:34:40 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:10:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+15:34:43 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+15:35:17 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:10:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+15:35:27 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+15:36:00 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:10:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+15:36:03 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+15:36:05 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.

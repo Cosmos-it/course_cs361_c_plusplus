@@ -1,0 +1,59 @@
+/*
+ * manClient.cpp
+ *
+ *  Created on: Oct 10, 2016
+ *      Author: Taban
+ */
+
+
+#include <iostream>
+
+#include "calculatorFunction.h";
+
+using namespace std;
+
+int main(int argc, const char * argv[]) {
+	int a, b, choice = {0};
+
+	puts("Simple calculator!");
+
+	puts("Choose what you would like!");
+	puts("1: For add!");
+	puts("2: For subtraction!");
+	puts("3: For multiply!");
+	puts("4: For division!");
+	puts("5: For modulus!");
+	puts("Enter quit to exit");
+
+do {
+
+   switch(choice) {
+   case 1:
+		puts("Enter a");
+		cin >> a;
+		puts("Enter b");
+		cin >> b;
+		int sub = subtract(a, b);
+
+		printf("Result is: %d", sub);
+   break;
+   case 2:
+	   break;
+   case 3:
+	   break;
+   case 4:
+	   break;
+   case 5:
+	   break;
+
+   }
+} while(choice != -1);
+
+
+
+	return 0;
+
+}
+
+
+

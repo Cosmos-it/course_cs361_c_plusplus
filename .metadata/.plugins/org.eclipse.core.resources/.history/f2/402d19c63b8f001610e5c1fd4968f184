@@ -1,0 +1,14 @@
+/*
+ * manClient.cpp
+ *
+ *  Created on: Oct 10, 2016
+ *      Author: Taban
+ */
+
+
+#include <iostream>
+
+using namespace std;
+
+
+
