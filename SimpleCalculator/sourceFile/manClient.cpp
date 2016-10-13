@@ -26,76 +26,69 @@ int main(int argc, const char * argv[]) {
 	puts("Simple calculator!");
 	do {
 		displayChoice();
-		cin.clear();
-		cin.ignore(256, '\n');
 		cin >> choice;
 		printf("Debugging choice: %d", choice);
 
 		int result = { 0 };
-		if (choice > 1 && choice <= 5) {
-			switch (choice) {
-			case 1:
-				puts("\nEnter a");
-				cin.clear();
-				cin.ignore(256, '\n');
-				cin >> a;
-				printf("A: %d", a);
+		switch (choice) {
+		case 1:
+			puts("\nEnter a");
+			cin.clear();
+			cin.ignore(256, '\n');
+			cin >> a;
+			printf("A: %d", a);
 
-				puts("Enter b");
-				cin.clear();
-				cin.ignore(256, '\n');
-				cin >> b;
-				printf("B: %d", b);
+			puts("Enter b");
+			cin.clear();
+			cin.ignore(256, '\n');
+			cin >> b;
+			printf("B: %d", b);
 
-				result = add(a, b);
-				printf("Result: %d", result);
-				printf("A: %d", a);
+			result = add(a, b);
+			printf("Result: %d", result);
+			printf("A: %d", a);
 
-				break;
+			break;
 
-			case 2:
-				puts("\nEnter a");
-				cin.clear();
-				cin.ignore();
-				cin >> a;
-				puts("Enter b");
-				cin.clear();
-				cin.ignore(256, '\n');
-				cin >> b;
-				result = subtract(a, b);
-				printf("Result is: %d", result);
-				break;
+		case 2:
+			puts("\nEnter a");
+			cin.clear();
+			cin.ignore();
+			cin >> a;
+			puts("Enter b");
+			cin.clear();
+			cin.ignore(256, '\n');
+			cin >> b;
+			result = subtract(a, b);
+			printf("Result is: %d", result);
+			break;
 
-			case 3:
-				puts("\nEnter a");
-				cin.clear();
-				cin.ignore();
-				cin >> a;
-				puts("Enter b");
-				cin.clear();
-				cin.ignore(256, '\n');
-				cin >> b;
-				result = multiply(a, b);
-				printf("Result is: %d", result);
-				break;
-			case 4:
-				puts("\nDivide\nEnter a");
-				cin.clear();
-				cin.ignore(256, '\n');
-				cin >> a;
-				puts("Enter b");
-				cin.clear();
-				cin.ignore();
-				cin >> b;
-				result = divide(a, b);
-				printf("Result is: %d", result);
-				break;
+		case 3:
+			puts("\nEnter a");
+			cin.clear();
+			cin.ignore();
+			cin >> a;
+			puts("Enter b");
+			cin.clear();
+			cin.ignore(256, '\n');
+			cin >> b;
+			result = multiply(a, b);
+			printf("Result is: %d", result);
+			break;
+		case 4:
+			puts("\nDivide\nEnter a");
+			cin.clear();
+			cin.ignore(256, '\n');
+			cin >> a;
+			puts("Enter b");
+			cin.clear();
+			cin.ignore();
+			cin >> b;
+			result = divide(a, b);
+			printf("Result is: %d", result);
+			break;
 
-			default:
-				break;
-			}
-		} else {
-			puts("This choice does not exist");
+		default:
 			break;
 		}
 

@@ -1372,3 +1372,52 @@ make: Nothing to be done for `all'.
 15:36:05 **** Incremental Build of configuration Debug for project SimpleCalculator ****
 make all 
 make: Nothing to be done for `all'.
+11:20:23 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:20:26 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:20:28 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:21:53 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:10:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:21:56 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.
+11:22:18 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+Building file: ../sourceFile/manClient.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourceFile/manClient.d" -MT"sourceFile/manClient.o" -o "sourceFile/manClient.o" "../sourceFile/manClient.cpp"
+../sourceFile/manClient.cpp:10:32: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "calculatorFunction.h";
+                               ^
+                               //
+1 warning generated.
+Finished building: ../sourceFile/manClient.cpp
+ 
+Building target: SimpleCalculator
+Invoking: MacOS X C++ Linker
+g++  -o "SimpleCalculator"  ./sourceFile/manClient.o   
+Finished building target: SimpleCalculator
+ 
+11:22:20 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+make all 
+make: Nothing to be done for `all'.

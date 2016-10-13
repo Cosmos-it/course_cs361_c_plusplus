@@ -1,8 +1,7 @@
-.cproject/
-.project/
-.metadata/
-.vscode/
+/.project/
+/.metadata/
+/.vscode/
 RemoteSystemTempFiles/
 SimpleCalculator/.settings/
 SimpleCalculator/Debug/
-.cproject
+/.cproject
