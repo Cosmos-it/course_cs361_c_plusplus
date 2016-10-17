@@ -2,11 +2,12 @@
  * manClient.cpp
  *
  *  Created on: Oct 10, 2016
- *      Author: Taban
+ *      Author: Taban Cosmos
  */
 
 #include <iostream>
-
+#include <string>
+#include <sstream>
 #include "calculatorFunction.h";
 
 using namespace std;
@@ -21,77 +22,91 @@ void displayChoice() {
 	puts("Enter -1 to exit.");
 }
 
+int input(int choice) {
+	while (!(cin >> choice)) {
+		cin.clear();
+		cin.ignore(numeric_limits<streamsize>::max(), '\n');
+		return 0;
+	}
+	return choice;
+}
+
 int main(int argc, const char * argv[]) {
-	int a, b, choice = { 0 };
+	int a, b = { 0 };
+	int choice = { 0 };
+
 	puts("Simple calculator!");
 	do {
 		displayChoice();
-		cin >> choice;
-		printf("Debugging choice: %d", choice);
+		cout << "Do calculations: Choose!" << endl;
 
-		int result = { 0 };
-		switch (choice) {
-		case 1:
-			puts("\nEnter a");
-			cin.clear();
-			cin.ignore(256, '\n');
-			cin >> a;
-			printf("A: %d", a);
+		choice = input(choice);
+		if (choice == -1 || choice <= 5) {
+			int result = { 0 };
 
-			puts("Enter b");
-			cin.clear();
-			cin.ignore(256, '\n');
-			cin >> b;
-			printf("B: %d", b);
+			switch (choice) {
+			case 1:
+				puts("\nAddition..\nEnter a");
+				a = input(a);
+				printf("A: %d\n", a);
 
-			result = add(a, b);
-			printf("Result: %d", result);
-			printf("A: %d", a);
+				puts("Enter b");
+				b = input(b);
+				printf("B: %d\n", b);
 
-			break;
+				result = add(a, b);
+				printf("Result:= %d", result);
+				break;
 
-		case 2:
-			puts("\nEnter a");
-			cin.clear();
-			cin.ignore();
-			cin >> a;
-			puts("Enter b");
-			cin.clear();
-			cin.ignore(256, '\n');
-			cin >> b;
-			result = subtract(a, b);
-			printf("Result is: %d", result);
-			break;
+			case 2:
+				puts("\nSubtraction...\nEnter a");
+				a = input(a);
+				printf("A: %d\n", a);
 
-		case 3:
-			puts("\nEnter a");
-			cin.clear();
-			cin.ignore();
-			cin >> a;
-			puts("Enter b");
-			cin.clear();
-			cin.ignore(256, '\n');
-			cin >> b;
-			result = multiply(a, b);
-			printf("Result is: %d", result);
-			break;
-		case 4:
-			puts("\nDivide\nEnter a");
-			cin.clear();
-			cin.ignore(256, '\n');
-			cin >> a;
-			puts("Enter b");
-			cin.clear();
-			cin.ignore();
-			cin >> b;
-			result = divide(a, b);
-			printf("Result is: %d", result);
-			break;
+				puts("Enter b");
+				b = input(b);
+				result = subtract(a, b);
+				printf("Result is: %d", result);
+				break;
 
-		default:
-			break;
+			case 3:
+				puts("\nMultipl...\nEnter a");
+				a = input(a);
+				printf("A: %d\n", a);
+
+				puts("Enter b");
+				b = input(b);
+				result = multiply(a, b);
+				printf("Result is: %d", result);
+				break;
+			case 4:
+				puts("\nDivide...\nEnter a");
+				a = input(a);
+				printf("A: %d\n", a);
+
+				puts("Enter b");
+				b = input(b);
+				result = divide(a, b);
+				printf("Result is: %d", result);
+				break;
+
+			case 5:
+				puts("\nModulus...\nEnter a");
+				a = input(a);
+				printf("A: %d\n", a);
+
+				puts("Enter b");
+				b = input(b);
+				result = mod(a, b);
+				printf("Result is: %d", result);
+				break;
+
+			default:
+				break;
+			}
+		} else {
+			puts("Choice is between 1 to 5");
 		}
-
 	} while (choice != -1);
 
 	if (choice == -1)
