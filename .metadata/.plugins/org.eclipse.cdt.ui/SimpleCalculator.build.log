@@ -1,6 +1,6 @@
-20:50:19 **** Incremental Build of configuration Debug for project SimpleCalculator ****
+17:04:05 **** Incremental Build of configuration Debug for project SimpleCalculator ****
 make all 
 make: Nothing to be done for `all'.
 
-20:50:19 Build Finished (took 76ms)
+17:04:05 Build Finished (took 133ms)
 

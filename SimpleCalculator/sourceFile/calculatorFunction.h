@@ -12,6 +12,8 @@
 
 #endif /* SOURCEFILE_CALCULATORFUNCTION_H_ */
 
+enum stringNumbers { ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE };
+
 int subtract(int a, int b){
 	return a - b;
 }

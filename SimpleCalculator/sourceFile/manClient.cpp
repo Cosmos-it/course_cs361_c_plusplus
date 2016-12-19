@@ -8,7 +8,7 @@
 #include <iostream>
 #include <string>
 #include <sstream>
-#include "calculatorFunction.h";
+#include "calculatorFunction.h"
 
 using namespace std;
 
@@ -35,6 +35,7 @@ int main(int argc, const char * argv[]) {
 	int a, b = { 0 };
 	int choice = { 0 };
 
+
 	puts("Simple calculator!");
 	do {
 		displayChoice();
@@ -55,7 +56,7 @@ int main(int argc, const char * argv[]) {
 				printf("B: %d\n", b);
 
 				result = add(a, b);
-				printf("Result:= %d", result);
+				printf("The sum of %d and %d is %d",a ,b, result);
 				break;
 
 			case 2:
